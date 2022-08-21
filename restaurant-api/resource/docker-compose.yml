@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mongo:
+    container_name: mongo-restaurant
+    image: "mongo:4.2.16-bionic"
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: db_restaurant
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: abc123
+    volumes:
+      - ./mongodb:/data/db
