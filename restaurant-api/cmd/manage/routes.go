@@ -14,6 +14,10 @@ func (app *application) routes() *gin.Engine {
 		ctx.JSON(http.StatusOK, gin.H{"msg": "ok"})
 	})
 
+	// 管理员
+	ga.POST("/manager", app.createAdmin)
+
+	// 店铺
 	ga.POST("/shop", app.createShop)
 
 	return r
