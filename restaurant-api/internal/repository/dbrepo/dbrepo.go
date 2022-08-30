@@ -12,6 +12,8 @@ import (
 	"lightsaid.com/restaurant-app/restaurant-api/internal/repository"
 )
 
+const crudTimeout = 30 * time.Second
+
 var (
 	// ErrObjectIDToString primitive.ObjectID 转 string 出错了。
 	ErrObjectIDToString = errors.New("InsertedID 转 String 失败。")

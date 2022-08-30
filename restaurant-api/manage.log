@@ -1,0 +1,583 @@
+2022-08-23T14:17:14.270+0800	INFO	manage/middleware.go:128	访问日志：Time: 2022-08-23T14:17:14+08:00 ~ 2022-08-23T14:17:14+08:00, Method: POST, Uri: /v1/admin/login, 入参: , 出参: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","password":"$2a$10$9vZhrp16eGuOHnBNRwZ01O.37McZwVPQEAUDAvF8VZAfd/JYLj9Z6","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3MGVhM2E1MmUwZjM2M2RhMzkxNCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjE3OjE0LjI3MDcwMzUzOSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjI3OjE0LjI3MDcwMzU3NSswODowMCJ9.HPSu0x8CkYAIU1pVSXuWfJjr5jpxKAxmV-0zPLmUssc"},"err":null,"msg":"成功"}
+2022-08-23T14:20:18.441+0800	INFO	manage/middleware.go:129	访问日志: Time: 2022/08/23 14:20:18 ~ 2022-08-23T14:20:18+08:00, Method: POST, Uri: /v1/admin/login, 入参: , 出参: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3MWEyY2JiY2ExYWEwZjZmMTdiZCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjIwOjE4LjQ0MTIxMDczMiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjMwOjE4LjQ0MTIxMDc3NSswODowMCJ9.00Ag0MK8a6WWS2bmOHZaqoiP0uElfGLVV24TydH8ZCs"},"err":null,"msg":"成功"}
+2022-08-23T14:20:27.922+0800	INFO	manage/middleware.go:64	gin.Context: {630471a2cbbca1aa0f6f17bd 6303894c837205fbbc6fb35f 2022-08-23 14:20:18.441210732 +0800 CST 2022-08-23 14:30:18.441210775 +0800 CST}
+2022-08-23T14:20:29.925+0800	INFO	manage/middleware.go:129	访问日志: Time: 2022/08/23 14:20:27 ~ 2022-08-23T14:20:29+08:00, Method: GET, Uri: /v1/admin/shop, 入参: , 出参: {"err":null,"list":[{"id":"630382031df8dc0459390b5a","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:17:55.18Z","updated_at":"2022-08-22T13:17:55.18Z"},{"id":"630383335382b734507633d9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:22:59.122Z","updated_at":"2022-08-22T13:22:59.122Z"},{"id":"63038aead0c084f8e12629b9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:55:54.238Z","updated_at":"2022-08-22T13:55:54.238Z"},{"id":"630454712368cc4ee1081ed7","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T04:15:45.411Z","updated_at":"2022-08-23T04:15:45.411Z"},{"id":"6304646f106a31c236919d5e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:23:59.69Z","updated_at":"2022-08-23T05:23:59.69Z"},{"id":"630465894ea262f4594e4f4e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:28:41.37Z","updated_at":"2022-08-23T05:28:41.37Z"}],"msg":"成功"}
+2022-08-23T14:22:57.396+0800	INFO	manage/middleware.go:64	gin.Context: {630471a2cbbca1aa0f6f17bd 6303894c837205fbbc6fb35f 2022-08-23 14:20:18.441210732 +0800 CST 2022-08-23 14:30:18.441210775 +0800 CST}
+2022-08-23T14:22:57.398+0800	INFO	manage/middleware.go:129	ACCESSLOG: Time: 2022/08/23 14:22:57 ~ 2022/08/23 14:22:57, Method: GET, Uri: /v1/admin/shop, IN: , OUT: {"err":null,"list":[{"id":"630382031df8dc0459390b5a","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:17:55.18Z","updated_at":"2022-08-22T13:17:55.18Z"},{"id":"630383335382b734507633d9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:22:59.122Z","updated_at":"2022-08-22T13:22:59.122Z"},{"id":"63038aead0c084f8e12629b9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:55:54.238Z","updated_at":"2022-08-22T13:55:54.238Z"},{"id":"630454712368cc4ee1081ed7","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T04:15:45.411Z","updated_at":"2022-08-23T04:15:45.411Z"},{"id":"6304646f106a31c236919d5e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:23:59.69Z","updated_at":"2022-08-23T05:23:59.69Z"},{"id":"630465894ea262f4594e4f4e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:28:41.37Z","updated_at":"2022-08-23T05:28:41.37Z"}],"msg":"成功"}
+2022-08-23T14:24:34.032+0800	INFO	manage/middleware.go:64	gin.Context: {630471a2cbbca1aa0f6f17bd 6303894c837205fbbc6fb35f 2022-08-23 14:20:18.441210732 +0800 CST 2022-08-23 14:30:18.441210775 +0800 CST}
+2022-08-23T14:24:34.034+0800	INFO	manage/middleware.go:129	ACCESSLOG: Time: 2022/08/23 14:24:34 ~ 2022/08/23 14:24:34, Method: GET, Uri: /v1/admin/shop, IN: , OUT: {"err":null,"list":[{"id":"630382031df8dc0459390b5a","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:17:55.18Z","updated_at":"2022-08-22T13:17:55.18Z"},{"id":"630383335382b734507633d9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:22:59.122Z","updated_at":"2022-08-22T13:22:59.122Z"},{"id":"63038aead0c084f8e12629b9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:55:54.238Z","updated_at":"2022-08-22T13:55:54.238Z"},{"id":"630454712368cc4ee1081ed7","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T04:15:45.411Z","updated_at":"2022-08-23T04:15:45.411Z"},{"id":"6304646f106a31c236919d5e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:23:59.69Z","updated_at":"2022-08-23T05:23:59.69Z"},{"id":"630465894ea262f4594e4f4e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:28:41.37Z","updated_at":"2022-08-23T05:28:41.37Z"}],"msg":"成功"}
+
+2022-08-23T14:24:47.112+0800	INFO	manage/middleware.go:64	gin.Context: {630471a2cbbca1aa0f6f17bd 6303894c837205fbbc6fb35f 2022-08-23 14:20:18.441210732 +0800 CST 2022-08-23 14:30:18.441210775 +0800 CST}
+2022-08-23T14:24:47.113+0800	INFO	manage/middleware.go:129	ACCESSLOG: Time: 2022/08/23 14:24:47 ~ 2022/08/23 14:24:47, Method: GET, Uri: /v1/admin/shop, IN: , OUT: {"err":null,"list":[{"id":"630382031df8dc0459390b5a","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:17:55.18Z","updated_at":"2022-08-22T13:17:55.18Z"},{"id":"630383335382b734507633d9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:22:59.122Z","updated_at":"2022-08-22T13:22:59.122Z"},{"id":"63038aead0c084f8e12629b9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:55:54.238Z","updated_at":"2022-08-22T13:55:54.238Z"},{"id":"630454712368cc4ee1081ed7","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T04:15:45.411Z","updated_at":"2022-08-23T04:15:45.411Z"},{"id":"6304646f106a31c236919d5e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:23:59.69Z","updated_at":"2022-08-23T05:23:59.69Z"},{"id":"630465894ea262f4594e4f4e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:28:41.37Z","updated_at":"2022-08-23T05:28:41.37Z"}],"msg":"成功"}
+
+2022-08-23T14:25:10.504+0800	INFO	manage/middleware.go:64	gin.Context: {630471a2cbbca1aa0f6f17bd 6303894c837205fbbc6fb35f 2022-08-23 14:20:18.441210732 +0800 CST 2022-08-23 14:30:18.441210775 +0800 CST}
+2022-08-23T14:25:10.506+0800	INFO	manage/middleware.go:129	
+ACCESSLOG: Time: 2022/08/23 14:25:10 ~ 2022/08/23 14:25:10, Method: GET, Uri: /v1/admin/shop, IN: , OUT: {"err":null,"list":[{"id":"630382031df8dc0459390b5a","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:17:55.18Z","updated_at":"2022-08-22T13:17:55.18Z"},{"id":"630383335382b734507633d9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:22:59.122Z","updated_at":"2022-08-22T13:22:59.122Z"},{"id":"63038aead0c084f8e12629b9","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-22T13:55:54.238Z","updated_at":"2022-08-22T13:55:54.238Z"},{"id":"630454712368cc4ee1081ed7","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T04:15:45.411Z","updated_at":"2022-08-23T04:15:45.411Z"},{"id":"6304646f106a31c236919d5e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:23:59.69Z","updated_at":"2022-08-23T05:23:59.69Z"},{"id":"630465894ea262f4594e4f4e","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-23T05:28:41.37Z","updated_at":"2022-08-23T05:28:41.37Z"}],"msg":"成功"}
+
+2022-08-23T14:27:36.169+0800	INFO	manage/middleware.go:129	
+ACCESSLOG: Time: 2022/08/23 14:27:36 ~ 2022/08/23 14:27:36, Method: POST, Uri: /v1/admin/login, IN: , OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3MzU4YTdiM2Q4MzcxMjA2ZDVhOSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjI3OjM2LjE2OTAyOTg1MiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjM3OjM2LjE2OTAyOTg5MyswODowMCJ9.ZWt1tTQFtTSubaTjPZ9kTvopb91u9w9IMtlMFkxCA8o"},"err":null,"msg":"成功"}
+
+2022-08-23T14:33:15.669+0800	INFO	manage/middleware.go:141	
+ACCESSLOG: Time: 2022/08/23 14:33:15 ~ 2022/08/23 14:33:15, Method: POST, Uri: /v1/admin/login, IN: map[Body: PostForm: Query:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NGFiYTM0Y2JhNDY1OTA3ZTFkNiIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjMzOjE1LjY2OTYzOTUyMiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQzOjE1LjY2OTYzOTU3OCswODowMCJ9.IqB0Be-l91DlP9kJq4HD5guvh5dELw6ok_4NvBZ_9Mo"},"err":null,"msg":"成功"}
+
+2022-08-23T14:33:53.217+0800	INFO	manage/middleware.go:141	
+ACCESSLOG: Time: 2022/08/23 14:33:53 ~ 2022/08/23 14:33:53, Method: POST, Uri: /v1/admin/login, IN: map[Body: PostForm: Query:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NGQxYTM0Y2JhNDY1OTA3ZTFkNyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjMzOjUzLjIxNjk1MDEzNiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQzOjUzLjIxNjk1MDE4NCswODowMCJ9.xnEhlfLuTcxt7Plm2ip_i8k4rPR0EkPjSCLXKhzPM0s"},"err":null,"msg":"成功"}
+
+2022-08-23T14:34:32.765+0800	INFO	manage/middleware.go:141	
+ACCESSLOG: Time: 2022/08/23 14:34:32 ~ 2022/08/23 14:34:32, Method: POST, Uri: /v1/admin/login?name=aaa, IN: map[Body: PostForm: Query:name=aaa], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NGY4YTM0Y2JhNDY1OTA3ZTFkOCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjM0OjMyLjc2NTY2MDI0OSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQ0OjMyLjc2NTY2MDI4NiswODowMCJ9.MuHkWe8S6GOt3rtCBB7QRHPnUkxk6hfTzch84LyBCQg"},"err":null,"msg":"成功"}
+
+2022-08-23T14:38:43.026+0800	INFO	manage/middleware.go:147	
+ACCESSLOG: Time: 2022/08/23 14:38:42 ~ 2022/08/23 14:38:43, Method: POST, Uri: /v1/admin/login?name=aaa, IN: map[Body:{} PostForm: Query:name=aaa], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NWYzMjA4OGIzZDhjYmViOGMxNyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjM4OjQzLjAyNTk0OTA5MyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQ4OjQzLjAyNTk0OTEyNSswODowMCJ9.QRuQ1svwp2tu5R7CgkgZu_hrwDQcFv0IP1Fh-krAQ18"},"err":null,"msg":"成功"}
+
+2022-08-23T14:39:12.040+0800	INFO	manage/middleware.go:147	
+ACCESSLOG: Time: 2022/08/23 14:39:11 ~ 2022/08/23 14:39:12, Method: POST, Uri: /v1/admin/login?name=aaa, IN: map[Body:{} PostForm: Query:name=aaa], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NjEwMjA4OGIzZDhjYmViOGMxOCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjM5OjEyLjA0MDU0NjY4NiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQ5OjEyLjA0MDU0Njc0MyswODowMCJ9.iB1iYCP6A6XtTv4lybJM8hXy3Ih9p9M6KzvkK55PRww"},"err":null,"msg":"成功"}
+
+2022-08-23T14:41:11.275+0800	INFO	manage/middleware.go:149	
+ACCESSLOG: Time: 2022/08/23 14:41:11 ~ 2022/08/23 14:41:11, Method: POST, Uri: /v1/admin/login?name=aaa, IN: map[Body: PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3Njg3ZTQwMjlkN2E1ODdmOGUxOSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQxOjExLjI3NDkwODMyNSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjUxOjExLjI3NDkwODM2MiswODowMCJ9.sQfl8bSKnbA0R5eeGVACBK5jaEiNGN0jCmf2wtbiqIk"},"err":null,"msg":"成功"}
+
+2022-08-23T14:42:02.384+0800	INFO	manage/middleware.go:149	
+ACCESSLOG: Time: 2022/08/23 14:42:02 ~ 2022/08/23 14:42:02, Method: POST, Uri: /v1/admin/login, IN: map[Body: PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NmJhZTQwMjlkN2E1ODdmOGUxYSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQyOjAyLjM4NDY5NTkzNiswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjUyOjAyLjM4NDY5NTk3NSswODowMCJ9.XnogCecOrd8sAi72Rhq1Ylo-glsVQoUZAzOpseCVkNw"},"err":null,"msg":"成功"}
+
+2022-08-23T14:42:30.668+0800	INFO	manage/middleware.go:147	
+ACCESSLOG: Time: 2022/08/23 14:42:30 ~ 2022/08/23 14:42:30, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDQ3NmQ2ZDhhNGNkNDY4ZTI2MDhhMSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjQyOjMwLjY2ODE2MTM2NyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTIzVDE0OjUyOjMwLjY2ODE2MTQwMyswODowMCJ9.zYXnF-xhFd7knNcVRkp3rjTBvkgb7J9RmLtIBVTirsA"},"err":null,"msg":"成功"}
+
+2022-08-24T09:08:26.410+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:08:26 ~ 2022/08/24 09:08:26, Method: POST, Uri: /v1/admin/shop, IN: map[Body:{} PostForm:], OUT: {"err":"token 过期","msg":"token 过期"}
+
+2022-08-24T09:08:30.911+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:08:30 ~ 2022/08/24 09:08:30, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":{},"msg":"服务内部出错"}
+
+2022-08-24T09:11:42.739+0800	ERROR	manage/handlers.go:94	InsertedID 转 String 失败。
+main.(*application).login
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:94
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:11:42.740+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:11:42 ~ 2022/08/24 09:11:42, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":{},"msg":"服务内部出错"}
+
+2022-08-24T09:15:44.022+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:15:43 ~ 2022/08/24 09:15:44, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3YmMwN2MzZGM5ZDdhMTk4MjViMyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjE1OjQ0LjAyMTAwMDQ2OCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjI1OjQ0LjAyMTAwMDUyOSswODowMCJ9.ddRLG-ZDPUv98IRntkw1OLymJvghRhqd9OacGrGVjc4","session_id":"63057bc07c3dc9d7a19825b5","expired_at":"2022-08-27T09:15:44.021135021+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3YmMwN2MzZGM5ZDdhMTk4MjViNCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjE1OjQ0LjAyMTEzNDk3NSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjE1OjQ0LjAyMTEzNTAyMSswODowMCJ9.c1z1bWWuVp2PqtIie1EdIAOQlz4Qxkz3lubXKCVRi4o","refresh_token_expired_at":"2022-08-27T09:15:44.021135021+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:18:37.244+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:18:37 ~ 2022/08/24 09:18:37, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3YzZkZjcxODE5MDNjMDUyNWNjZSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjE4OjM3LjI0MzU1MzM4OCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjI4OjM3LjI0MzU1MzQyNiswODowMCJ9.QWynYUviSCb2x6vDSyriJjpDB2NECqNx-IJjD3OwLck","session_id":"63057c6df7181903c0525cd0","expired_at":"2022-08-27T09:18:37.24366573+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3YzZkZjcxODE5MDNjMDUyNWNjZiIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjE4OjM3LjI0MzY2NTY5NyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjE4OjM3LjI0MzY2NTczKzA4OjAwIn0.cQqWWerPHnUHeKHW2EQK5mp6zHOV9FohRkjXg730KLQ","refresh_token_expired_at":"2022-08-27T09:18:37.24366573+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:20:23.720+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:20:23 ~ 2022/08/24 09:20:23, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3Y2Q3YWRiNzI0Y2UwMzMwODI2MCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjIwOjIzLjcxODIyOTA3NCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjMwOjIzLjcxODIyOTEyMSswODowMCJ9.-ASfw6CVLGr5bBf_9Q_Orftww19KjXUfzxAM1CCc8nM","session_id":"63057cd7adb724ce03308262","expired_at":"2022-08-24T09:30:23.718229121+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3Y2Q3YWRiNzI0Y2UwMzMwODI2MSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjIwOjIzLjcxODM3NzA0KzA4OjAwIiwiZXhwaXJlZF9hdCI6IjIwMjItMDgtMjdUMDk6MjA6MjMuNzE4Mzc3MDcyKzA4OjAwIn0.mSQNZDeC8Up_xPCun5-EbixU6CE0aRHthIuxjnMZ6Jg","refresh_token_expired_at":"2022-08-27T09:20:23.718377072+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:20:58.822+0800	INFO	manage/middleware.go:65	gin.Context: {63057cd7adb724ce03308260 6303894c837205fbbc6fb35f 2022-08-24 09:20:23.718229074 +0800 CST 2022-08-24 09:30:23.718229121 +0800 CST}
+2022-08-24T09:20:58.823+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:20:58 ~ 2022/08/24 09:20:58, Method: POST, Uri: /v1/admin/shop, IN: map[Body:{} PostForm:], OUT: {"shop":{"id":"63057cfaadb724ce03308263","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-24T09:20:58.822172023+08:00","updated_at":"2022-08-24T09:20:58.822172076+08:00"}}
+
+2022-08-24T09:21:04.253+0800	INFO	manage/middleware.go:65	gin.Context: {63057cd7adb724ce03308260 6303894c837205fbbc6fb35f 2022-08-24 09:20:23.718229074 +0800 CST 2022-08-24 09:30:23.718229121 +0800 CST}
+2022-08-24T09:21:04.255+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:21:04 ~ 2022/08/24 09:21:04, Method: POST, Uri: /v1/admin/shop, IN: map[Body:{} PostForm:], OUT: {"shop":{"id":"63057d00adb724ce03308264","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-24T09:21:04.253828795+08:00","updated_at":"2022-08-24T09:21:04.253828837+08:00"}}
+
+2022-08-24T09:21:21.921+0800	INFO	manage/middleware.go:65	gin.Context: {63057cd7adb724ce03308261 6303894c837205fbbc6fb35f 2022-08-24 09:20:23.71837704 +0800 CST 2022-08-27 09:20:23.718377072 +0800 CST}
+2022-08-24T09:21:21.922+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:21:21 ~ 2022/08/24 09:21:21, Method: POST, Uri: /v1/admin/shop, IN: map[Body:{} PostForm:], OUT: {"shop":{"id":"63057d11adb724ce03308265","name":"沙县小吃","logo":"http://localhost:4000/static/images/01.png","created_at":"2022-08-24T09:21:21.921913127+08:00","updated_at":"2022-08-24T09:21:21.921913175+08:00"}}
+
+2022-08-24T09:23:55.582+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:23:55 ~ 2022/08/24 09:23:55, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"err":"权限验证无效,Header不存在token信息","msg":"请先登录"}
+
+2022-08-24T09:24:23.425+0800	INFO	manage/middleware.go:65	gin.Context: {63057cd7adb724ce03308260 6303894c837205fbbc6fb35f 2022-08-24 09:20:23.718229074 +0800 CST 2022-08-24 09:30:23.718229121 +0800 CST}
+2022-08-24T09:24:23.427+0800	ERROR	manage/handlers.go:160	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:160
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:24:23.427+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:24:23 ~ 2022/08/24 09:24:23, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":{},"msg":"刷新token错误"}
+
+2022-08-24T09:28:26.223+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:28:26 ~ 2022/08/24 09:28:26, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3ZWJhOGM0YTE3ZGU5ZTJiZDc3ZSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjI4OjI2LjE4Nzk2ODU4OSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjM4OjI2LjE4Nzk2ODYyMyswODowMCJ9.M4T5X-jw7KYvE1JRCM2YkW96DdG43rOdBWU0QnhSFCg","session_id":"63057eba8c4a17de9e2bd780","expired_at":"2022-08-24T09:38:26.187968623+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU3ZWJhOGM0YTE3ZGU5ZTJiZDc3ZiIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjI4OjI2LjE4ODA3MTE2OCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjI4OjI2LjE4ODA3MTE5NyswODowMCJ9.r6v-r_tcEV3RGywMS9dMW_m13ONEOdqdP5OJWdmfPNM","refresh_token_expired_at":"2022-08-27T09:28:26.188071197+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:28:43.367+0800	INFO	manage/middleware.go:65	gin.Context: {63057cd7adb724ce03308260 6303894c837205fbbc6fb35f 2022-08-24 09:20:23.718229074 +0800 CST 2022-08-24 09:30:23.718229121 +0800 CST}
+2022-08-24T09:28:43.368+0800	ERROR	manage/handlers.go:160	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:160
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:28:43.368+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:28:43 ~ 2022/08/24 09:28:43, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":{},"msg":"刷新token错误"}
+
+2022-08-24T09:35:38.234+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:35:38 ~ 2022/08/24 09:35:38, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"err":"token 过期","msg":"token 过期"}
+
+2022-08-24T09:39:56.566+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:39:56 ~ 2022/08/24 09:39:56, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4MTZjODg4MTE3MzkyMDY3NzhmMyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjM5OjU2LjU2NTIwNzg4KzA4OjAwIiwiZXhwaXJlZF9hdCI6IjIwMjItMDgtMjRUMDk6NDk6NTYuNTY1MjA3OTE5KzA4OjAwIn0.o-WHGmYIyIyAGSyMDTm-I2LOlIGHIWDKDGWm3gyOoog","session_id":"6305816c88811739206778f5","expired_at":"2022-08-24T09:49:56.565207919+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4MTZjODg4MTE3MzkyMDY3NzhmNCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjM5OjU2LjU2NTI3NDQwOCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjM5OjU2LjU2NTI3NDQzNyswODowMCJ9.yW4hOll6CfSjR7fVZAigetzoO1kHQ4GVFBKH7t1mj0Y","refresh_token_expired_at":"2022-08-27T09:39:56.565274437+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:40:27.174+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:40:27 ~ 2022/08/24 09:40:27, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"err":"token 过期","msg":"token 过期"}
+
+2022-08-24T09:42:15.163+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:42:15 ~ 2022/08/24 09:42:15, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4MWY3ODg4MTE3MzkyMDY3NzhmNiIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjQyOjE1LjE2MjA4OTYzNyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjUyOjE1LjE2MjA4OTY3MyswODowMCJ9.3lr1ZEe0TFm4oqpuuEKFrh4Cy0tDIgfOCQxWjjwAnTc","session_id":"630581f788811739206778f8","expired_at":"2022-08-24T09:52:15.162089673+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4MWY3ODg4MTE3MzkyMDY3NzhmNyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjQyOjE1LjE2MjE5MDM5NSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjQyOjE1LjE2MjE5MDQyNyswODowMCJ9.oDSqdejpbr00XQtv0642O_unKZz91jSD1z7KodFbOfg","refresh_token_expired_at":"2022-08-27T09:42:15.162190427+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:42:38.855+0800	INFO	manage/middleware.go:65	gin.Context: {630581f788811739206778f6 6303894c837205fbbc6fb35f 2022-08-24 09:42:15.162089637 +0800 CST 2022-08-24 09:52:15.162089673 +0800 CST}
+2022-08-24T09:42:38.856+0800	ERROR	manage/handlers.go:168	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:168
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:42:38.856+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:42:38 ~ 2022/08/24 09:42:38, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:43:12.539+0800	INFO	manage/middleware.go:65	gin.Context: {630581f788811739206778f6 6303894c837205fbbc6fb35f 2022-08-24 09:42:15.162089637 +0800 CST 2022-08-24 09:52:15.162089673 +0800 CST}
+2022-08-24T09:43:12.541+0800	ERROR	manage/handlers.go:168	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:168
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:43:12.541+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:43:12 ~ 2022/08/24 09:43:12, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:43:52.688+0800	INFO	manage/middleware.go:65	gin.Context: {630581f788811739206778f6 6303894c837205fbbc6fb35f 2022-08-24 09:42:15.162089637 +0800 CST 2022-08-24 09:52:15.162089673 +0800 CST}
+2022-08-24T09:43:52.689+0800	ERROR	manage/handlers.go:168	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:168
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:43:52.689+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:43:52 ~ 2022/08/24 09:43:52, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:46:28.827+0800	INFO	manage/middleware.go:65	gin.Context: {630581f788811739206778f6 6303894c837205fbbc6fb35f 2022-08-24 09:42:15.162089637 +0800 CST 2022-08-24 09:52:15.162089673 +0800 CST}
+2022-08-24T09:46:28.828+0800	ERROR	manage/handlers.go:168	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:168
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:46:28.828+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:46:28 ~ 2022/08/24 09:46:28, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:52:59.450+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:52:59 ~ 2022/08/24 09:52:59, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"err":"token 过期","msg":"token 过期"}
+
+2022-08-24T09:53:09.793+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:53:09 ~ 2022/08/24 09:53:09, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4NDg1ZGVkMGMxOTU3ODUzYzI5NyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjUzOjA5Ljc5MTQzMzgzMSswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDEwOjAzOjA5Ljc5MTQzMzg3NiswODowMCJ9.SArOOywLdWGV4uDPAeuTK8QLJFlHnM6dNA_SiaEc6Z8","session_id":"63058485ded0c1957853c299","expired_at":"2022-08-24T10:03:09.791433876+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDU4NDg1ZGVkMGMxOTU3ODUzYzI5OCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDA5OjUzOjA5Ljc5MTUwNjIzNCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDA5OjUzOjA5Ljc5MTUwNjI3MiswODowMCJ9._FeHRZd-fnFmXZs5UjAmBwqdVCl66Fp0Vs8FN2lShgQ","refresh_token_expired_at":"2022-08-27T09:53:09.791506272+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T09:53:25.871+0800	INFO	manage/middleware.go:65	gin.Context: {63058485ded0c1957853c297 6303894c837205fbbc6fb35f 2022-08-24 09:53:09.791433831 +0800 CST 2022-08-24 10:03:09.791433876 +0800 CST}
+2022-08-24T09:53:25.873+0800	ERROR	manage/handlers.go:168	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:168
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:53:25.873+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:53:25 ~ 2022/08/24 09:53:25, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:54:32.129+0800	INFO	manage/middleware.go:65	gin.Context: {63058485ded0c1957853c297 6303894c837205fbbc6fb35f 2022-08-24 09:53:09.791433831 +0800 CST 2022-08-24 10:03:09.791433876 +0800 CST}
+2022-08-24T09:54:32.130+0800	ERROR	manage/handlers.go:169	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:169
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:54:32.130+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:54:32 ~ 2022/08/24 09:54:32, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:55:45.739+0800	INFO	manage/middleware.go:65	gin.Context: {63058485ded0c1957853c297 6303894c837205fbbc6fb35f 2022-08-24 09:53:09.791433831 +0800 CST 2022-08-24 10:03:09.791433876 +0800 CST}
+2022-08-24T09:55:45.740+0800	ERROR	manage/handlers.go:170	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:170
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:55:45.741+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:55:45 ~ 2022/08/24 09:55:45, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T09:59:11.854+0800	ERROR	manage/handlers.go:101	InsertedID 转 String 失败。
+main.(*application).login
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T09:59:11.854+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 09:59:11 ~ 2022/08/24 09:59:11, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"InsertedID 转 String 失败。","msg":"服务内部出错"}
+
+2022-08-24T12:28:12.181+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 12:28:12 ~ 2022/08/24 12:28:12, Method: POST, Uri: /v1/admin/login, IN: map[Body:{} PostForm:], OUT: {"data":{"admin":{"id":"6303894c837205fbbc6fb35f","name":"李四","phone":"12345678900","created_at":"2022-08-22T13:49:00.12Z","updated_at":"2022-08-22T13:49:00.12Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDVhOGRjOWJhMTU4YmU4YTE0OTU2NyIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDEyOjI4OjEyLjE3OTQyMTg0NyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDEyOjM4OjEyLjE3OTQyMTg4MSswODowMCJ9.x0-yO_CPMasGk24haL4HfSwnrv6qIa56j6pqsfKfZs4","session_id":"6305a8dc9ba158be8a149568","expired_at":"2022-08-24T12:38:12.179421881+08:00","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDVhOGRjOWJhMTU4YmU4YTE0OTU2OCIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDEyOjI4OjEyLjE3OTUwMjA5NCswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI3VDEyOjI4OjEyLjE3OTUwMjEyNiswODowMCJ9.Rwfo5epiytfy875M0bhb_Qszl1YlKp18mEjQap_4aN0","refresh_token_expired_at":"2022-08-27T12:28:12.179502126+08:00"},"err":null,"msg":"成功"}
+
+2022-08-24T12:28:41.612+0800	INFO	manage/middleware.go:65	gin.Context: {6305a8dc9ba158be8a149567 6303894c837205fbbc6fb35f 2022-08-24 12:28:12.179421847 +0800 CST 2022-08-24 12:38:12.179421881 +0800 CST}
+2022-08-24T12:28:41.614+0800	ERROR	manage/handlers.go:177	mongo: no documents in result
+main.(*application).renewAccessToken
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/handlers.go:177
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.authMiddleware.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.accessLog.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:127
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.requestTimeout.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:100
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+main.rateLimit.func1
+	/home/xzz/go/src/lightsaid.com/restaurant-app/restaurant-api/cmd/manage/middleware.go:90
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/xzz/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1966
+2022-08-24T12:28:41.614+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 12:28:41 ~ 2022/08/24 12:28:41, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":null,"err":"mongo: no documents in result","msg":"刷新token错误"}
+
+2022-08-24T12:28:57.300+0800	INFO	manage/middleware.go:65	gin.Context: {6305a8dc9ba158be8a149567 6303894c837205fbbc6fb35f 2022-08-24 12:28:12.179421847 +0800 CST 2022-08-24 12:38:12.179421881 +0800 CST}
+2022-08-24T12:28:57.302+0800	INFO	manage/middleware.go:146	
+ACCESSLOG: Time: 2022/08/24 12:28:57 ~ 2022/08/24 12:28:57, Method: POST, Uri: /v1/admin/refresh_token, IN: map[Body:{} PostForm:], OUT: {"data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMDVhOTA5OWJhMTU4YmU4YTE0OTU2OSIsInVzZXJfaWQiOiI2MzAzODk0YzgzNzIwNWZiYmM2ZmIzNWYiLCJpc3N1ZWRfYXQiOiIyMDIyLTA4LTI0VDEyOjI4OjU3LjMwMTk5NjMzMyswODowMCIsImV4cGlyZWRfYXQiOiIyMDIyLTA4LTI0VDEyOjM4OjU3LjMwMTk5NjM4NSswODowMCJ9.bz2WBFkRpcI1u1uNBry0lcwI1yqyrloGx6aIOGjvd4Q","expired_at":"2022-08-24T12:38:57.301996385+08:00"},"err":null,"msg":"成功"}
+

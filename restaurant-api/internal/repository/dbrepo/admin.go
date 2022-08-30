@@ -4,6 +4,7 @@ import (
 	"context"
 	"time"
 
+	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"lightsaid.com/restaurant-app/restaurant-api/internal/model"
 )
@@ -11,7 +12,7 @@ import (
 func (m *mongoRepo) CreateAdmin(name, phone, password string) (*model.Admin, error) {
 	tb := m.GetCollection("admin")
 
-	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), crudTimeout)
 	defer cancel()
 
 	admin := model.Admin{
@@ -32,6 +33,32 @@ func (m *mongoRepo) CreateAdmin(name, phone, password string) (*model.Admin, err
 		return &admin, ErrObjectIDToString
 	}
 
-	admin.ID = id.Hex()
+	admin.ID = id
 	return &admin, nil
+}
+
+func (m *mongoRepo) GetAdminByID(id primitive.ObjectID) (*model.Admin, error) {
+	tb := m.GetCollection("admin")
+
+	ctx, cancel := context.WithTimeout(context.Background(), crudTimeout)
+	defer cancel()
+
+	var a model.Admin
+	result := tb.FindOne(ctx, bson.M{"_id": id})
+
+	err := result.Decode(&a)
+	return &a, err
+}
+
+func (m *mongoRepo) GetAdminByPhone(phone string) (*model.Admin, error) {
+	tb := m.GetCollection("admin")
+
+	ctx, cancel := context.WithTimeout(context.Background(), crudTimeout)
+	defer cancel()
+
+	var a model.Admin
+	result := tb.FindOne(ctx, bson.M{"phone": phone})
+
+	err := result.Decode(&a)
+	return &a, err
 }

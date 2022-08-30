@@ -12,3 +12,17 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: abc123
     volumes:
       - ./mongodb:/data/db
+
+  redis:
+    image: "redis:6.2.7-alpine"
+    container_name: redis-restaurant
+    privileged: true
+    volumes:
+      - ./redis/data:/data
+      - ./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf
+      - ./redis/logs:/logs
+    command: ["redis-server","/usr/local/etc/redis/redis.conf"]
+    ports:
+      - 6379:6379
+    environment:
+      - TZ="Asia/Shanghai"

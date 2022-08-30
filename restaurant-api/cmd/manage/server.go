@@ -12,7 +12,7 @@ func (app *application) serve() error {
 		Addr:         fmt.Sprintf(":%s", app.port),
 		Handler:      app.routes(),
 		IdleTimeout:  time.Minute,
-		ReadTimeout:  10 * time.Second,
+		ReadTimeout:  30 * time.Second,
 		WriteTimeout: 30 * time.Second,
 	}
 

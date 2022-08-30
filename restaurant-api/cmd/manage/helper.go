@@ -49,3 +49,7 @@ func (app *application) bindError(c *gin.Context, req interface{}) bool {
 	}
 	return true
 }
+
+func errorResponse(msg string, err error) gin.H {
+	return gin.H{"msg": msg, "err": err.Error()}
+}
